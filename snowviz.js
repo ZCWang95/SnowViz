@@ -10,7 +10,7 @@ var ps_daily_url;
 
 
 
-const planetApiKey = "PLAK167d2e657cfb45bc816f8a79c651aee8";
+const planetApiKey = "__PLANET_API_KEY__";
 var circle;
 // var olayers = {};
 
