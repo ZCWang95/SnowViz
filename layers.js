@@ -51,6 +51,7 @@ function fetchDatesList_ps_daily() {
       url: 'https://storage.googleapis.com/asu-chi-snowviz-platform/data/ps_daily.txt',
       dataType: 'text',
       async: false,
+      cache: false,
       success: function(data) {
           // Split the data into an array of dates
           ps_date = data.split('\n').filter(Boolean); // Remove empty elements
@@ -76,6 +77,7 @@ function fetchDatesList_asu_snow() {
       url: 'https://storage.googleapis.com/asu-chi-snowviz-platform/data/asu_snow_dates.txt',
       dataType: 'text',
       async: false,
+      cache: false,
       success: function(data) {
           // Split the data into an array of dates
           asu_snow_date = data.split('\n').filter(Boolean); // Remove empty elements
