@@ -43,7 +43,7 @@ var base_layer;
 //   className: 'blurred-tile' // Add the CSS class here
 
 // });
-base_layer = L.tileLayer('https://tiles3.planet.com/basemaps/v1/planet-tiles/ps_biweekly_visual_subscription_2023-01-23_2023-02-06_mosaic/gmap/{z}/{x}/{y}.png?api_key='+planetApiKey, {
+base_layer = L.tileLayer('https://tiles3.planet.com/basemaps/v1/planet-tiles/ps_biweekly_visual_subscription_2025-08-04_2025-08-18_mosaic/gmap/{z}/{x}/{y}.png?api_key='+planetApiKey, {
   minNativeZoom: 0,
   maxNativeZoom: 23,
   attribution: 'Imagery &copy; <a href="https://www.planet.com/">2023 Planet Labs PBC</a> contributors',
