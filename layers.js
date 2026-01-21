@@ -48,7 +48,7 @@ console.log(availDatesPlanet);
 var ps_daily_map;
 function fetchDatesList_ps_daily() {
   $.ajax({
-      url: 'ps_daily.txt',
+      url: 'https://storage.googleapis.com/asu-chi-snowviz-platform/data/ps_daily.txt',
       dataType: 'text',
       async: false,
       success: function(data) {
@@ -73,7 +73,7 @@ fetchDatesList_ps_daily();
 
 function fetchDatesList_asu_snow() {
   $.ajax({
-      url: 'asu_snow_dates.txt',
+      url: 'https://storage.googleapis.com/asu-chi-snowviz-platform/data/asu_snow_dates.txt',
       dataType: 'text',
       async: false,
       success: function(data) {
